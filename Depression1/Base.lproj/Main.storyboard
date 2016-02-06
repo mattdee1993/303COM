@@ -5,10 +5,23 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="kxd-BI-OJv">
+            <objects>
+                <navigationController id="1Hg-Yy-ffL" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Mhg-OK-XNM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ip-fx-d6c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-434" y="304"/>
+        </scene>
+        <!--Homepage-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Depression1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Homepage" id="BYZ-38-t0r" customClass="ViewController" customModule="Depression1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +29,52 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hY1-mt-YZE">
+                                <rect key="frame" x="264" y="169" width="73" height="30"/>
+                                <state key="normal" title="Begin Test">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aT1-Cd-ooX">
+                                <rect key="frame" x="256" y="296" width="81" height="30"/>
+                                <state key="normal" title="Instructions">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zSg-0S-6lH" kind="showDetail" id="IUq-bY-fMj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.23195122379247879" green="0.43823029245670397" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="aT1-Cd-ooX" firstAttribute="centerX" secondItem="hY1-mt-YZE" secondAttribute="centerX" constant="-4" id="1iU-jO-gEl"/>
+                            <constraint firstItem="hY1-mt-YZE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="149" id="FDs-Yq-eAb"/>
+                            <constraint firstItem="aT1-Cd-ooX" firstAttribute="top" secondItem="hY1-mt-YZE" secondAttribute="bottom" constant="97" id="MwN-qw-dNd"/>
+                            <constraint firstItem="hY1-mt-YZE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w1f-od-VxB"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Instructions-->
+        <scene sceneID="SFn-vq-Yd8">
+            <objects>
+                <viewController title="Instructions" id="zSg-0S-6lH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5tx-0S-QCK"/>
+                        <viewControllerLayoutGuide type="bottom" id="RgR-Cy-KQV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4I9-XS-3RY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.23195122379999999" green="0.43823029250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M1f-v0-vJN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="956" y="304"/>
         </scene>
     </scenes>
 </document>
