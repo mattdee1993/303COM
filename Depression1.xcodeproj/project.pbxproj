@@ -15,6 +15,7 @@
 		34724BEB1C6680B60059BBFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34724BE91C6680B60059BBFA /* LaunchScreen.storyboard */; };
 		34724BF61C6680B60059BBFA /* Depression1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34724BF51C6680B60059BBFA /* Depression1Tests.swift */; };
 		34724C011C6680B60059BBFA /* Depression1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34724C001C6680B60059BBFA /* Depression1UITests.swift */; };
+		348A59341C7A3731001F7788 /* ResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A59331C7A3731001F7788 /* ResultsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		34724BFC1C6680B60059BBFA /* Depression1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Depression1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34724C001C6680B60059BBFA /* Depression1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depression1UITests.swift; sourceTree = "<group>"; };
 		34724C021C6680B60059BBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		348A59331C7A3731001F7788 /* ResultsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultsVC.swift; path = ../ResultsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		34724BDC1C6680B50059BBFA /* Depression1 */ = {
 			isa = PBXGroup;
 			children = (
+				348A59331C7A3731001F7788 /* ResultsVC.swift */,
 				34724BDD1C6680B50059BBFA /* AppDelegate.swift */,
 				34724BDF1C6680B50059BBFA /* ViewController.swift */,
 				34724BE11C6680B50059BBFA /* Main.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34724BE01C6680B50059BBFA /* ViewController.swift in Sources */,
+				348A59341C7A3731001F7788 /* ResultsVC.swift in Sources */,
 				34724BDE1C6680B50059BBFA /* AppDelegate.swift in Sources */,
 				34724BE61C6680B60059BBFA /* Depression1.xcdatamodeld in Sources */,
 			);

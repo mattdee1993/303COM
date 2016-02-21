@@ -2243,10 +2243,10 @@
             </objects>
             <point key="canvasLocation" x="14380" y="-190"/>
         </scene>
-        <!--Score-->
+        <!--Results-->
         <scene sceneID="ua6-2T-y8X">
             <objects>
-                <viewController title="Score" id="T2O-BU-Bxk" sceneMemberID="viewController">
+                <viewController title="Results" id="T2O-BU-Bxk" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FFX-D1-wF4"/>
                         <viewControllerLayoutGuide type="bottom" id="Yvs-R4-Nyb"/>
