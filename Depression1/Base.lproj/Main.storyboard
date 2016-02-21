@@ -2246,7 +2246,7 @@
         <!--Results-->
         <scene sceneID="ua6-2T-y8X">
             <objects>
-                <viewController title="Results" id="T2O-BU-Bxk" sceneMemberID="viewController">
+                <viewController title="Results" id="T2O-BU-Bxk" customClass="ResultsVC" customModule="Depression1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FFX-D1-wF4"/>
                         <viewControllerLayoutGuide type="bottom" id="Yvs-R4-Nyb"/>
@@ -2271,6 +2271,9 @@
                         </subviews>
                         <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="scoreLabel" destination="vo4-FQ-ZKb" id="rEc-9d-HEa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pCC-y0-CvP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
