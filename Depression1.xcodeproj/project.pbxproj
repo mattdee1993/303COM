@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		342BC8041C80B56700A23AE5 /* ScoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342BC8031C80B56700A23AE5 /* ScoreInfo.swift */; };
+		342BC8081C80B5F700A23AE5 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342BC8071C80B5F700A23AE5 /* Questions.swift */; };
+		342BC80A1C80B71000A23AE5 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342BC8091C80B71000A23AE5 /* Results.swift */; };
 		34724BDE1C6680B50059BBFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34724BDD1C6680B50059BBFA /* AppDelegate.swift */; };
 		34724BE01C6680B50059BBFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34724BDF1C6680B50059BBFA /* ViewController.swift */; };
 		34724BE31C6680B50059BBFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34724BE11C6680B50059BBFA /* Main.storyboard */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		342BC8031C80B56700A23AE5 /* ScoreInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreInfo.swift; sourceTree = "<group>"; };
+		342BC8071C80B5F700A23AE5 /* Questions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		342BC8091C80B71000A23AE5 /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		34724BDA1C6680B50059BBFA /* Depression1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Depression1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34724BDD1C6680B50059BBFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34724BDF1C6680B50059BBFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,10 +108,13 @@
 				34724BDD1C6680B50059BBFA /* AppDelegate.swift */,
 				34724BDF1C6680B50059BBFA /* ViewController.swift */,
 				34724BE11C6680B50059BBFA /* Main.storyboard */,
+				342BC8091C80B71000A23AE5 /* Results.swift */,
+				342BC8031C80B56700A23AE5 /* ScoreInfo.swift */,
 				34724BE71C6680B60059BBFA /* Assets.xcassets */,
 				34724BE91C6680B60059BBFA /* LaunchScreen.storyboard */,
 				34724BEC1C6680B60059BBFA /* Info.plist */,
 				34724BE41C6680B60059BBFA /* Depression1.xcdatamodeld */,
+				342BC8071C80B5F700A23AE5 /* Questions.swift */,
 			);
 			path = Depression1;
 			sourceTree = "<group>";
@@ -262,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342BC80A1C80B71000A23AE5 /* Results.swift in Sources */,
 				34724BE01C6680B50059BBFA /* ViewController.swift in Sources */,
+				342BC8041C80B56700A23AE5 /* ScoreInfo.swift in Sources */,
 				34724BDE1C6680B50059BBFA /* AppDelegate.swift in Sources */,
 				34724BE61C6680B60059BBFA /* Depression1.xcdatamodeld in Sources */,
+				342BC8081C80B5F700A23AE5 /* Questions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
