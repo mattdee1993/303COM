@@ -1,5 +1,5 @@
 //
-//  question1.swift
+//  Questions.swift
 //  Depression1
 //
 //  Created by Matthew Dee on 26/02/2016.
@@ -35,18 +35,13 @@ class question2: UIViewController {
         
     }
     
-    
     @IBAction func answer1_pressed(sender: AnyObject) {
         score += 1
         
-        
     }
-    
-
     
     @IBAction func answer2_pressed(sender: AnyObject) {
         score += 2
-        
         
     }
     
