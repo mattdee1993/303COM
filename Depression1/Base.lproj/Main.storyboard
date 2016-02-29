@@ -20,12 +20,12 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hY1-mt-YZE">
                                 <rect key="frame" x="204" y="221" width="193" height="30"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="193" id="Eov-ul-8B9"/>
                                 </constraints>
                                 <state key="normal" title="Begin Test">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="fvu-Zs-V5f" kind="showDetail" id="MPJ-K0-p9Y"/>
@@ -33,16 +33,16 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aT1-Cd-ooX">
                                 <rect key="frame" x="199" y="341" width="198" height="30"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Instructions">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="zSg-0S-6lH" kind="showDetail" id="IUq-bY-fMj"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="hY1-mt-YZE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Dj-1N-MOm"/>
                             <constraint firstItem="aT1-Cd-ooX" firstAttribute="centerX" secondItem="hY1-mt-YZE" secondAttribute="centerX" constant="-2.5" id="1iU-jO-gEl"/>
@@ -129,7 +129,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="Y3Q-0F-ChW" firstAttribute="centerX" secondItem="6qM-hR-mFF" secondAttribute="centerX" constant="1" id="Ohm-vA-jUJ"/>
@@ -220,7 +220,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="06U-4A-6si" firstAttribute="centerX" secondItem="bOi-84-pYx" secondAttribute="centerX" id="14M-w3-bYP"/>
                             <constraint firstItem="bOi-84-pYx" firstAttribute="centerX" secondItem="ng5-KY-T80" secondAttribute="centerX" id="2Mi-8Y-i0Y"/>
@@ -342,7 +342,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Bck-t8-hdv" firstAttribute="top" secondItem="LyL-5F-C6j" secondAttribute="bottom" constant="8" symbolic="YES" id="E2G-lP-1Kw"/>
                             <constraint firstItem="LBs-WN-dLo" firstAttribute="top" secondItem="hHz-K1-aXU" secondAttribute="bottom" constant="40" id="FRh-oo-KTN"/>
@@ -443,7 +443,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="kxq-OF-X4R" firstAttribute="top" secondItem="znu-kh-Awj" secondAttribute="bottom" constant="41" id="4Ot-Ka-ghd"/>
                             <constraint firstItem="vbq-fa-Jpd" firstAttribute="top" secondItem="l4i-Jr-kcR" secondAttribute="bottom" constant="36" id="6Rf-kl-iHZ"/>
@@ -552,7 +552,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="xAE-uU-gbM" firstAttribute="centerX" secondItem="e5O-57-M65" secondAttribute="centerX" id="3hA-a1-iJB"/>
                             <constraint firstItem="V73-JD-Cfr" firstAttribute="centerX" secondItem="xAE-uU-gbM" secondAttribute="centerX" id="8ye-ue-sVS"/>
@@ -670,7 +670,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="VFh-hf-Q7z" firstAttribute="leading" secondItem="q6q-Sh-d1i" secondAttribute="leading" constant="199" id="3nt-MK-gXi"/>
                             <constraint firstItem="Maf-mH-mU1" firstAttribute="centerX" secondItem="2kx-M3-pAM" secondAttribute="centerX" constant="1" id="7Iu-Bo-pUT"/>
@@ -772,7 +772,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="QNU-hO-6Fd" firstAttribute="centerX" secondItem="I0C-wA-QfY" secondAttribute="centerX" constant="1" id="8dw-FQ-aSW"/>
                             <constraint firstItem="I0C-wA-QfY" firstAttribute="top" secondItem="2Pu-Qg-XCn" secondAttribute="bottom" id="CoN-gd-8Eg"/>
@@ -870,7 +870,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="rX7-4V-aix" firstAttribute="centerX" secondItem="ExP-lc-AZS" secondAttribute="centerX" constant="0.5" id="2lk-Z9-yxZ"/>
                             <constraint firstItem="45M-GT-1aQ" firstAttribute="leading" secondItem="LGl-FZ-Ubt" secondAttribute="leading" constant="167" id="3Kd-As-Tds"/>
@@ -1026,7 +1026,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="sx6-ve-rhe" firstAttribute="top" secondItem="Sjt-3G-180" secondAttribute="bottom" constant="46" id="06v-nc-eL8"/>
                             <constraint firstItem="sx6-ve-rhe" firstAttribute="centerX" secondItem="9sx-lT-ypl" secondAttribute="centerX" id="1UD-rL-unF"/>
@@ -1152,7 +1152,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="iGA-oU-Hjc" firstAttribute="centerX" secondItem="LeD-qK-QSa" secondAttribute="centerX" constant="5" id="3Hz-Ms-k4y"/>
                             <constraint firstItem="JXH-TH-xl5" firstAttribute="centerX" secondItem="Y59-Kn-8KS" secondAttribute="centerX" id="57C-jL-Rhj"/>
@@ -1302,7 +1302,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="mcc-vw-yLh" firstAttribute="top" secondItem="4cP-rJ-1TQ" secondAttribute="bottom" constant="49" id="05A-Cn-P6T"/>
                             <constraint firstItem="Zmo-tJ-7cb" firstAttribute="centerX" secondItem="r5L-MM-wQc" secondAttribute="centerX" constant="-6.5" id="1qn-nk-B9v"/>
@@ -1465,7 +1465,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="4mk-Ag-YRW" firstAttribute="centerX" secondItem="EWM-nt-HU6" secondAttribute="centerX" constant="0.5" id="3uC-e1-hrH"/>
                             <constraint firstItem="4mk-Ag-YRW" firstAttribute="top" secondItem="Qbw-Ut-iRn" secondAttribute="bottom" constant="43" id="43T-Ji-ZmD"/>
@@ -1579,7 +1579,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="eVh-zm-XaT" firstAttribute="leading" secondItem="UmD-ce-T0c" secondAttribute="leadingMargin" constant="50" id="6as-Ay-smG"/>
                             <constraint firstItem="fYM-xq-5sQ" firstAttribute="top" secondItem="eVh-zm-XaT" secondAttribute="bottom" constant="46" id="7Q3-a4-3d1"/>
@@ -1735,7 +1735,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="diQ-8Z-JRA" firstAttribute="leading" secondItem="663-Gd-gW4" secondAttribute="leadingMargin" constant="-13" id="1sW-ok-ePA"/>
                             <constraint firstItem="dmH-q5-NAp" firstAttribute="top" secondItem="Uo3-qE-YMc" secondAttribute="bottom" constant="53" id="21L-Gi-cC3"/>
@@ -1886,7 +1886,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="OGd-AM-O3X" firstAttribute="top" secondItem="AQ8-8i-FSm" secondAttribute="bottom" constant="8" symbolic="YES" id="Bah-Ih-sYI"/>
                             <constraint firstItem="c3Y-zV-kE4" firstAttribute="top" secondItem="OGd-AM-O3X" secondAttribute="bottom" constant="116" id="ByD-HA-h2H"/>
@@ -1944,15 +1944,15 @@
                                     <segue destination="gFY-gE-o6q" kind="show" id="iXI-BN-brw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="d9F-GS-fr1">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="d9F-GS-fr1">
                                 <rect key="frame" x="64" y="313" width="476" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="mzY-w7-4yi"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal">
-                                    <string key="title">2. I wake up 1-2 earlier than usual and find it hard to
-get back to sleep</string>
+                                    <string key="title">2. I wake up 1-2 earlier than usual 
+and find it hard to get back to sleep</string>
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -1971,15 +1971,15 @@ get back to sleep</string>
                                     <segue destination="gFY-gE-o6q" kind="show" id="EVu-Q7-EXH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="SZ3-FY-tlr">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="SZ3-FY-tlr">
                                 <rect key="frame" x="39" y="390" width="527" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="GQb-rb-eVP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal">
-                                    <string key="title">3. I wake up several hours earlier than I used to and
- cannot get back to sleep</string>
+                                    <string key="title">3. I wake up several hours earlier than
+ I used to and cannot get back to sleep</string>
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -1988,7 +1988,7 @@ get back to sleep</string>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="d9F-GS-fr1" firstAttribute="centerX" secondItem="Js9-fA-mLw" secondAttribute="centerX" id="80l-F2-DvB"/>
                             <constraint firstItem="Js9-fA-mLw" firstAttribute="top" secondItem="qPT-FV-nEw" secondAttribute="bottom" constant="8" symbolic="YES" id="8h2-qk-gDU"/>
@@ -2016,9 +2016,11 @@ get back to sleep</string>
                                 <exclude reference="Uje-CX-wAT"/>
                                 <exclude reference="swh-F2-Cia"/>
                                 <exclude reference="Ips-Pk-KkW"/>
+                                <exclude reference="ieM-MQ-ifg"/>
                                 <exclude reference="Apo-zQ-Y00"/>
                                 <exclude reference="CTH-8g-dKC"/>
                                 <exclude reference="MHd-pZ-aGF"/>
+                                <exclude reference="O9d-QN-zBE"/>
                                 <exclude reference="jVU-4Y-xaf"/>
                                 <exclude reference="no6-sI-qBj"/>
                             </mask>
@@ -2096,7 +2098,7 @@ get back to sleep</string>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="DoI-VQ-qqQ" firstAttribute="top" secondItem="kcH-kW-PK2" secondAttribute="bottom" constant="46" id="4PG-Ee-p6X"/>
                             <constraint firstItem="wmx-pD-WT4" firstAttribute="centerX" secondItem="e4a-4G-GPJ" secondAttribute="centerX" id="H0S-76-Hym"/>
@@ -2182,7 +2184,7 @@ get back to sleep</string>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="ZhD-bF-qa8" firstAttribute="top" secondItem="8xU-iX-pcj" secondAttribute="bottom" constant="49" id="8ca-5y-mD1"/>
                             <constraint firstItem="8xU-iX-pcj" firstAttribute="top" secondItem="97X-cW-FQs" secondAttribute="bottom" constant="44" id="G5Q-xo-Ngc"/>
@@ -2278,7 +2280,7 @@ get back to sleep</string>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Gja-BN-8fi" firstAttribute="top" secondItem="PRh-8e-PJu" secondAttribute="bottom" id="4O5-UW-ywe"/>
                             <constraint firstItem="hB3-go-Y8K" firstAttribute="leading" secondItem="OzW-f1-SiO" secondAttribute="leading" id="4Uu-3I-dHo"/>
@@ -2367,15 +2369,15 @@ get back to sleep</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="eTe-Hn-Q0Y">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="eTe-Hn-Q0Y">
                                 <rect key="frame" x="21" y="390" width="558" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="IHu-eK-mMA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal">
-                                    <string key="title">3. I am so worried about my physical 
-   problems that I cannot think of anything else</string>
+                                    <string key="title">3. I am so worried about my physical problems 
+         that I cannot think of anything else</string>
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -2384,7 +2386,7 @@ get back to sleep</string>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="azb-3x-roy" firstAttribute="centerX" secondItem="eTe-Hn-Q0Y" secondAttribute="centerX" id="3lg-R3-Ljs"/>
                             <constraint firstItem="Kbz-NH-l1w" firstAttribute="top" secondItem="mpj-nK-ukD" secondAttribute="bottom" constant="8" symbolic="YES" id="4An-ed-I8Y"/>
@@ -2405,6 +2407,7 @@ get back to sleep</string>
                             <mask key="constraints">
                                 <exclude reference="cwC-tw-762"/>
                                 <exclude reference="Qfl-Cr-bLC"/>
+                                <exclude reference="zT3-w3-Ucl"/>
                             </mask>
                         </variation>
                     </view>
@@ -2484,7 +2487,7 @@ get back to sleep</string>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Eo6-qs-3GN" firstAttribute="top" secondItem="C69-go-f7m" secondAttribute="bottom" constant="8" symbolic="YES" id="1sA-Eq-PMH"/>
                             <constraint firstItem="Eo6-qs-3GN" firstAttribute="centerX" secondItem="Fbq-C3-5tH" secondAttribute="centerX" constant="1" id="6qa-Me-IWw"/>
@@ -2523,17 +2526,19 @@ get back to sleep</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1-10 : These ups and downs are considered normal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Zn-bX-jsI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Zn-bX-jsI">
                                 <rect key="frame" x="20" y="265" width="390" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="390" id="360-e1-7te"/>
                                     <constraint firstAttribute="height" constant="40" id="pRX-6R-Qzy"/>
                                 </constraints>
+                                <string key="text">1-10 : These ups and downs are considered
+           normal</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11-16: Mild mood disturbance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkB-e0-Z4s">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="11-16: Mild mood disturbance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkB-e0-Z4s">
                                 <rect key="frame" x="20" y="318" width="390" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="JID-uB-m1u"/>
@@ -2542,7 +2547,7 @@ get back to sleep</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17-20: Borderline clinical depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YfN-rC-1OS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="17-20: Borderline clinical depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YfN-rC-1OS">
                                 <rect key="frame" x="20" y="372" width="390" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="AA5-0U-e8b"/>
@@ -2551,7 +2556,7 @@ get back to sleep</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21-30: Moderate depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofh-kf-7Ah">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="21-30: Moderate depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofh-kf-7Ah">
                                 <rect key="frame" x="20" y="426" width="390" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="MFf-2Y-yfm"/>
@@ -2560,7 +2565,7 @@ get back to sleep</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="31-40: Severe depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnT-if-b9u">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="31-40: Severe depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnT-if-b9u">
                                 <rect key="frame" x="20" y="474" width="390" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="0vL-7O-bOX"/>
@@ -2569,7 +2574,7 @@ get back to sleep</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="over 40: Extreme depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Be2-h8-juG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="over 40: Extreme depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Be2-h8-juG">
                                 <rect key="frame" x="20" y="527" width="390" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="20W-pe-DC9"/>
@@ -2578,13 +2583,13 @@ get back to sleep</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score will be here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vo4-FQ-ZKb">
-                                <rect key="frame" x="187" y="169" width="227" height="38"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vo4-FQ-ZKb">
+                                <rect key="frame" x="187" y="149" width="227" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="227" id="NMr-cG-Dvs"/>
                                     <constraint firstAttribute="height" constant="38" id="u2l-en-C2Q"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your score is:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xdf-6c-uoY">
@@ -2597,14 +2602,15 @@ get back to sleep</string>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Xdf-6c-uoY" firstAttribute="top" secondItem="FFX-D1-wF4" secondAttribute="bottom" constant="46" id="0qb-Dh-ac7"/>
-                            <constraint firstItem="1Zn-bX-jsI" firstAttribute="top" secondItem="vo4-FQ-ZKb" secondAttribute="bottom" constant="58" id="25l-OH-Wwy"/>
+                            <constraint firstItem="1Zn-bX-jsI" firstAttribute="top" secondItem="vo4-FQ-ZKb" secondAttribute="bottom" constant="78" id="25l-OH-Wwy"/>
                             <constraint firstItem="zkB-e0-Z4s" firstAttribute="top" secondItem="1Zn-bX-jsI" secondAttribute="bottom" constant="13" id="65M-zS-PWp"/>
                             <constraint firstItem="1Zn-bX-jsI" firstAttribute="trailing" secondItem="zkB-e0-Z4s" secondAttribute="trailing" id="7RG-sv-Qha"/>
                             <constraint firstItem="1Zn-bX-jsI" firstAttribute="leading" secondItem="zkB-e0-Z4s" secondAttribute="leading" id="8cQ-w1-i6g"/>
                             <constraint firstItem="YfN-rC-1OS" firstAttribute="leading" secondItem="zkB-e0-Z4s" secondAttribute="leading" id="99L-q6-yD1"/>
+                            <constraint firstItem="1Zn-bX-jsI" firstAttribute="leading" secondItem="mPo-y0-YgA" secondAttribute="leadingMargin" id="9Ci-ir-1rn"/>
                             <constraint firstItem="Ofh-kf-7Ah" firstAttribute="trailing" secondItem="YfN-rC-1OS" secondAttribute="trailing" id="9FJ-ML-8u3"/>
                             <constraint firstItem="Yvs-R4-Nyb" firstAttribute="top" secondItem="Be2-h8-juG" secondAttribute="bottom" constant="33" id="AHx-5F-W3y"/>
                             <constraint firstItem="YfN-rC-1OS" firstAttribute="top" secondItem="zkB-e0-Z4s" secondAttribute="bottom" constant="14" id="AvS-im-yyr"/>
@@ -2613,7 +2619,7 @@ get back to sleep</string>
                             <constraint firstItem="vo4-FQ-ZKb" firstAttribute="centerX" secondItem="Xdf-6c-uoY" secondAttribute="centerX" id="WQR-0f-H7a"/>
                             <constraint firstItem="hnT-if-b9u" firstAttribute="top" secondItem="Ofh-kf-7Ah" secondAttribute="bottom" constant="8" symbolic="YES" id="Ycn-Uu-Wy4"/>
                             <constraint firstItem="Ofh-kf-7Ah" firstAttribute="trailing" secondItem="hnT-if-b9u" secondAttribute="trailing" id="cXD-DL-ZQT"/>
-                            <constraint firstItem="vo4-FQ-ZKb" firstAttribute="top" secondItem="Xdf-6c-uoY" secondAttribute="bottom" constant="36" id="cpo-FQ-8r7"/>
+                            <constraint firstItem="vo4-FQ-ZKb" firstAttribute="top" secondItem="Xdf-6c-uoY" secondAttribute="bottom" constant="16" id="cpo-FQ-8r7"/>
                             <constraint firstItem="Be2-h8-juG" firstAttribute="leading" secondItem="hnT-if-b9u" secondAttribute="leading" id="dDx-6R-zli"/>
                             <constraint firstItem="1Zn-bX-jsI" firstAttribute="leading" secondItem="mPo-y0-YgA" secondAttribute="leadingMargin" id="eR2-h1-uvw"/>
                             <constraint firstItem="zkB-e0-Z4s" firstAttribute="trailing" secondItem="YfN-rC-1OS" secondAttribute="trailing" id="i3h-4Q-Gyp"/>
@@ -2622,6 +2628,12 @@ get back to sleep</string>
                             <constraint firstItem="hnT-if-b9u" firstAttribute="trailing" secondItem="Be2-h8-juG" secondAttribute="trailing" id="vhx-R0-LIP"/>
                             <constraint firstItem="Ofh-kf-7Ah" firstAttribute="top" secondItem="YfN-rC-1OS" secondAttribute="bottom" constant="14" id="w4i-cB-5G8"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7RG-sv-Qha"/>
+                                <exclude reference="eR2-h1-uvw"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="scoreLabel" destination="vo4-FQ-ZKb" id="jj2-2A-nlH"/>
@@ -2644,35 +2656,16 @@ get back to sleep</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QbB-yH-Kf9">
-                                <rect key="frame" x="283" y="466" width="34" height="30"/>
+                                <rect key="frame" x="283" y="464" width="34" height="30"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="7g9-Zs-5j9"/>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" action="showViewController:sender:" id="7g9-Zs-5j9"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Gmp-zm-Hxy">
-                                <rect key="frame" x="180" y="176" width="240" height="249"/>
-                                <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="249" id="9B3-VI-Lr9"/>
-                                    <constraint firstAttribute="width" constant="240" id="FdZ-1L-xCj"/>
-                                    <constraint firstAttribute="width" constant="240" id="hQw-Tl-6b5"/>
-                                </constraints>
-                                <string key="text">Instructions: This test is designed to identify whether or not you may be showing symptoms of depression. Please read the questions carefully and answer honestly. At the end, your score will be displayed based on the answers that you have provided.</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="9B3-VI-Lr9"/>
-                                        <exclude reference="FdZ-1L-xCj"/>
-                                    </mask>
-                                </variation>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="71l-l1-pQ3">
-                                <rect key="frame" x="264" y="423" width="73" height="30"/>
+                                <rect key="frame" x="264" y="402" width="73" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="73" id="NzH-Z8-x7v"/>
                                 </constraints>
@@ -2684,15 +2677,36 @@ get back to sleep</string>
                                     <segue destination="fvu-Zs-V5f" kind="showDetail" id="eov-QX-EwH"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Gmp-zm-Hxy">
+                                <rect key="frame" x="180" y="111" width="240" height="249"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="249" id="9B3-VI-Lr9"/>
+                                    <constraint firstAttribute="width" constant="240" id="FdZ-1L-xCj"/>
+                                    <constraint firstAttribute="width" constant="240" id="hQw-Tl-6b5"/>
+                                </constraints>
+                                <string key="text">Instructions: 
+
+This test is designed to identify whether or not you may be showing symptoms of depression. Please read the questions carefully and answer honestly. At the end, your score will be displayed based on the answers that you have provided.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="9B3-VI-Lr9"/>
+                                        <exclude reference="FdZ-1L-xCj"/>
+                                    </mask>
+                                </variation>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.18039215689999999" green="0.32549019610000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="71l-l1-pQ3" firstAttribute="top" secondItem="Gmp-zm-Hxy" secondAttribute="bottom" constant="-2" id="6s5-NE-7lW"/>
-                            <constraint firstItem="Gmp-zm-Hxy" firstAttribute="centerY" secondItem="4I9-XS-3RY" secondAttribute="centerY" id="8vA-MU-rAA"/>
+                            <constraint firstItem="71l-l1-pQ3" firstAttribute="top" secondItem="Gmp-zm-Hxy" secondAttribute="bottom" constant="42" id="6s5-NE-7lW"/>
+                            <constraint firstItem="Gmp-zm-Hxy" firstAttribute="centerY" secondItem="4I9-XS-3RY" secondAttribute="centerY" constant="-64.5" id="8vA-MU-rAA"/>
                             <constraint firstItem="Gmp-zm-Hxy" firstAttribute="centerX" secondItem="4I9-XS-3RY" secondAttribute="centerX" id="B4u-Do-Um4"/>
                             <constraint firstItem="QbB-yH-Kf9" firstAttribute="centerX" secondItem="71l-l1-pQ3" secondAttribute="centerX" id="N3Q-YC-Dfw"/>
-                            <constraint firstItem="QbB-yH-Kf9" firstAttribute="top" secondItem="71l-l1-pQ3" secondAttribute="bottom" constant="13" id="TNs-Dp-ncL"/>
-                            <constraint firstItem="Gmp-zm-Hxy" firstAttribute="top" secondItem="5tx-0S-QCK" secondAttribute="bottom" constant="156" id="UNm-RI-wIL"/>
+                            <constraint firstItem="QbB-yH-Kf9" firstAttribute="top" secondItem="71l-l1-pQ3" secondAttribute="bottom" constant="32" id="TNs-Dp-ncL"/>
+                            <constraint firstItem="Gmp-zm-Hxy" firstAttribute="top" secondItem="5tx-0S-QCK" secondAttribute="bottom" constant="91" id="UNm-RI-wIL"/>
                             <constraint firstItem="QbB-yH-Kf9" firstAttribute="centerX" secondItem="Gmp-zm-Hxy" secondAttribute="centerX" id="VOd-lJ-ksR"/>
                             <constraint firstItem="Gmp-zm-Hxy" firstAttribute="top" secondItem="5tx-0S-QCK" secondAttribute="bottom" constant="90" id="eSZ-DA-Mcw"/>
                             <constraint firstItem="Gmp-zm-Hxy" firstAttribute="leading" secondItem="4I9-XS-3RY" secondAttribute="leadingMargin" constant="160" id="kAe-QX-Wun"/>
@@ -2713,6 +2727,10 @@ get back to sleep</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="x8A-gn-YbI"/>
+        <segue reference="nRg-7Z-3hm"/>
+        <segue reference="ytQ-VY-efw"/>
+        <segue reference="nV6-XE-6t1"/>
         <segue reference="gfT-g3-qHd"/>
         <segue reference="yPd-Y9-vh3"/>
         <segue reference="xC5-04-XdW"/>
@@ -2722,10 +2740,6 @@ get back to sleep</string>
         <segue reference="AAR-4q-gJ9"/>
         <segue reference="kCe-66-tAM"/>
         <segue reference="MPJ-K0-p9Y"/>
-        <segue reference="nV6-XE-6t1"/>
-        <segue reference="ytQ-VY-efw"/>
-        <segue reference="nRg-7Z-3hm"/>
-        <segue reference="x8A-gn-YbI"/>
         <segue reference="bpU-mn-ES0"/>
         <segue reference="iHa-UA-MXe"/>
         <segue reference="xc7-Ir-zaq"/>
