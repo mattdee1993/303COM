@@ -13,8 +13,12 @@ class Results: UIViewController {
     @IBOutlet weak var scoreLabel: UILabel!
     
     override func viewDidAppear(animated: Bool) {
-        print(score)
-        self.scoreLabel.text = String(score)
+        var finalScore = 0
+        for items in Score{
+            finalScore += items
+        }
+        
+        self.scoreLabel.text = String(finalScore)
     }
     
 

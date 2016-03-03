@@ -9,3 +9,5 @@
 import Foundation
 
 var score: Int = 0
+
+var Score: [Int] = []
