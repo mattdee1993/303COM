@@ -110,11 +110,11 @@
 				34724BE11C6680B50059BBFA /* Main.storyboard */,
 				342BC8091C80B71000A23AE5 /* Results.swift */,
 				342BC8031C80B56700A23AE5 /* ScoreInfo.swift */,
+				342BC8071C80B5F700A23AE5 /* Questions.swift */,
 				34724BE71C6680B60059BBFA /* Assets.xcassets */,
 				34724BE91C6680B60059BBFA /* LaunchScreen.storyboard */,
 				34724BEC1C6680B60059BBFA /* Info.plist */,
 				34724BE41C6680B60059BBFA /* Depression1.xcdatamodeld */,
-				342BC8071C80B5F700A23AE5 /* Questions.swift */,
 			);
 			path = Depression1;
 			sourceTree = "<group>";

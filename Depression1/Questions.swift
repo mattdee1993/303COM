@@ -12,6 +12,7 @@ class question1: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -32,6 +33,7 @@ class question2: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
         
     }
     
@@ -56,6 +58,7 @@ class question3: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -76,6 +79,7 @@ class question4: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -98,6 +102,7 @@ class question5: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -118,6 +123,7 @@ class question6: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -139,6 +145,7 @@ class question7: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -160,6 +167,7 @@ class question8: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -179,6 +187,7 @@ class question9: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -198,6 +207,7 @@ class question10: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -220,6 +230,7 @@ class question11: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -239,6 +250,7 @@ class question12: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -259,6 +271,7 @@ class question13: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -281,6 +294,7 @@ class question14: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -302,6 +316,7 @@ class question15: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -322,6 +337,7 @@ class question16: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -344,6 +360,7 @@ class question17: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -363,6 +380,7 @@ class question18:UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -382,6 +400,7 @@ class question19: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -404,6 +423,7 @@ class question20: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
@@ -420,15 +440,18 @@ class question20: UIViewController {
         score += 3
     }
 }
-
+//the final one is not being added, have a look at this, create a q22 and check 
 class question21: UIViewController {
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         score += 0
+        print("PRESSED")
     }
     
     @IBAction func answer1_pressed(sender: AnyObject) {
         score += 1
+        print("PRESSED", score)
+        
     }
     
     @IBAction func answer2_pressed(sender: AnyObject) {
@@ -440,3 +463,4 @@ class question21: UIViewController {
     }
     
 }
+

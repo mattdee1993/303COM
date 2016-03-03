@@ -2664,19 +2664,6 @@ and find it hard to get back to sleep</string>
                                     <segue destination="BYZ-38-t0r" kind="showDetail" action="showViewController:sender:" id="7g9-Zs-5j9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="71l-l1-pQ3">
-                                <rect key="frame" x="264" y="402" width="73" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="73" id="NzH-Z8-x7v"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="Begin Test">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="fvu-Zs-V5f" kind="showDetail" id="eov-QX-EwH"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Gmp-zm-Hxy">
                                 <rect key="frame" x="180" y="111" width="240" height="249"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -2698,6 +2685,19 @@ This test is designed to identify whether or not you may be showing symptoms of 
                                     </mask>
                                 </variation>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="71l-l1-pQ3">
+                                <rect key="frame" x="264" y="402" width="73" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="NzH-Z8-x7v"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Begin Test">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fvu-Zs-V5f" kind="showDetail" id="eov-QX-EwH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -2727,8 +2727,6 @@ This test is designed to identify whether or not you may be showing symptoms of 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="x8A-gn-YbI"/>
-        <segue reference="nRg-7Z-3hm"/>
         <segue reference="ytQ-VY-efw"/>
         <segue reference="nV6-XE-6t1"/>
         <segue reference="gfT-g3-qHd"/>
@@ -2740,6 +2738,8 @@ This test is designed to identify whether or not you may be showing symptoms of 
         <segue reference="AAR-4q-gJ9"/>
         <segue reference="kCe-66-tAM"/>
         <segue reference="MPJ-K0-p9Y"/>
+        <segue reference="nRg-7Z-3hm"/>
+        <segue reference="x8A-gn-YbI"/>
         <segue reference="bpU-mn-ES0"/>
         <segue reference="iHa-UA-MXe"/>
         <segue reference="xc7-Ir-zaq"/>
@@ -2747,7 +2747,7 @@ This test is designed to identify whether or not you may be showing symptoms of 
         <segue reference="oUU-25-eeU"/>
         <segue reference="lWj-hM-VNN"/>
         <segue reference="u6p-YI-RYT"/>
-        <segue reference="sqw-NT-ZmO"/>
-        <segue reference="fcd-O2-AVN"/>
+        <segue reference="OPw-4a-yPn"/>
+        <segue reference="f2T-jl-6IM"/>
     </inferredMetricsTieBreakers>
 </document>
