@@ -10,6 +10,17 @@
 		342BC8041C80B56700A23AE5 /* ScoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342BC8031C80B56700A23AE5 /* ScoreInfo.swift */; };
 		342BC8081C80B5F700A23AE5 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342BC8071C80B5F700A23AE5 /* Questions.swift */; };
 		342BC80A1C80B71000A23AE5 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342BC8091C80B71000A23AE5 /* Results.swift */; };
+		345880911C90A9AA00E13041 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345880901C90A9AA00E13041 /* LoginViewController.swift */; };
+		345880931C90ACB400E13041 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345880921C90ACB400E13041 /* SystemConfiguration.framework */; };
+		345880951C90ACC100E13041 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345880941C90ACC100E13041 /* Security.framework */; };
+		345880971C90ACC500E13041 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345880961C90ACC500E13041 /* CFNetwork.framework */; };
+		345880991C90ACD600E13041 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345880981C90ACD600E13041 /* Firebase.framework */; };
+		3458809B1C90AD3C00E13041 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3458809A1C90AD3C00E13041 /* libc++.tbd */; };
+		3458809D1C90AD4B00E13041 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3458809C1C90AD4B00E13041 /* libz.tbd */; };
+		3458809F1C90AD6A00E13041 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3458809E1C90AD6A00E13041 /* libicucore.tbd */; };
+		345880A11C91B36F00E13041 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345880A01C91B36F00E13041 /* RegisterViewController.swift */; };
+		3459BA171C8EFEFB00B1B159 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3459BA161C8EFEFB00B1B159 /* MapKit.framework */; };
+		3459BA191C8EFF0A00B1B159 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3459BA181C8EFF0A00B1B159 /* CoreLocation.framework */; };
 		34724BDE1C6680B50059BBFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34724BDD1C6680B50059BBFA /* AppDelegate.swift */; };
 		34724BE01C6680B50059BBFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34724BDF1C6680B50059BBFA /* ViewController.swift */; };
 		34724BE31C6680B50059BBFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34724BE11C6680B50059BBFA /* Main.storyboard */; };
@@ -41,6 +52,17 @@
 		342BC8031C80B56700A23AE5 /* ScoreInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreInfo.swift; sourceTree = "<group>"; };
 		342BC8071C80B5F700A23AE5 /* Questions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 		342BC8091C80B71000A23AE5 /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		345880901C90A9AA00E13041 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		345880921C90ACB400E13041 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		345880941C90ACC100E13041 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		345880961C90ACC500E13041 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		345880981C90ACD600E13041 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		3458809A1C90AD3C00E13041 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3458809C1C90AD4B00E13041 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3458809E1C90AD6A00E13041 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		345880A01C91B36F00E13041 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3459BA161C8EFEFB00B1B159 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3459BA181C8EFF0A00B1B159 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		34724BDA1C6680B50059BBFA /* Depression1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Depression1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34724BDD1C6680B50059BBFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34724BDF1C6680B50059BBFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +84,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3458809F1C90AD6A00E13041 /* libicucore.tbd in Frameworks */,
+				3458809D1C90AD4B00E13041 /* libz.tbd in Frameworks */,
+				3458809B1C90AD3C00E13041 /* libc++.tbd in Frameworks */,
+				345880971C90ACC500E13041 /* CFNetwork.framework in Frameworks */,
+				345880991C90ACD600E13041 /* Firebase.framework in Frameworks */,
+				345880951C90ACC100E13041 /* Security.framework in Frameworks */,
+				345880931C90ACB400E13041 /* SystemConfiguration.framework in Frameworks */,
+				3459BA191C8EFF0A00B1B159 /* CoreLocation.framework in Frameworks */,
+				3459BA171C8EFEFB00B1B159 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +116,15 @@
 		34724BD11C6680B50059BBFA = {
 			isa = PBXGroup;
 			children = (
+				3458809E1C90AD6A00E13041 /* libicucore.tbd */,
+				3458809C1C90AD4B00E13041 /* libz.tbd */,
+				3458809A1C90AD3C00E13041 /* libc++.tbd */,
+				345880981C90ACD600E13041 /* Firebase.framework */,
+				345880961C90ACC500E13041 /* CFNetwork.framework */,
+				345880941C90ACC100E13041 /* Security.framework */,
+				345880921C90ACB400E13041 /* SystemConfiguration.framework */,
+				3459BA181C8EFF0A00B1B159 /* CoreLocation.framework */,
+				3459BA161C8EFEFB00B1B159 /* MapKit.framework */,
 				34724BDC1C6680B50059BBFA /* Depression1 */,
 				34724BF41C6680B60059BBFA /* Depression1Tests */,
 				34724BFF1C6680B60059BBFA /* Depression1UITests */,
@@ -108,6 +148,8 @@
 				34724BDD1C6680B50059BBFA /* AppDelegate.swift */,
 				34724BDF1C6680B50059BBFA /* ViewController.swift */,
 				34724BE11C6680B50059BBFA /* Main.storyboard */,
+				345880901C90A9AA00E13041 /* LoginViewController.swift */,
+				345880A01C91B36F00E13041 /* RegisterViewController.swift */,
 				342BC8091C80B71000A23AE5 /* Results.swift */,
 				342BC8031C80B56700A23AE5 /* ScoreInfo.swift */,
 				342BC8071C80B5F700A23AE5 /* Questions.swift */,
@@ -271,8 +313,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				345880911C90A9AA00E13041 /* LoginViewController.swift in Sources */,
 				342BC80A1C80B71000A23AE5 /* Results.swift in Sources */,
 				34724BE01C6680B50059BBFA /* ViewController.swift in Sources */,
+				345880A11C91B36F00E13041 /* RegisterViewController.swift in Sources */,
 				342BC8041C80B56700A23AE5 /* ScoreInfo.swift in Sources */,
 				34724BDE1C6680B50059BBFA /* AppDelegate.swift in Sources */,
 				34724BE61C6680B60059BBFA /* Depression1.xcdatamodeld in Sources */,
@@ -417,6 +461,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Depression1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Depression1.Depression1;
@@ -429,6 +477,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Depression1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Depression1.Depression1;
