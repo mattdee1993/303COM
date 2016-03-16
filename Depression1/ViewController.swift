@@ -49,7 +49,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         let location  = locations.last
         
-        var center  = CLLocationCoordinate2D(latitude: location!.coordinate.latitude, longitude: location!.coordinate.longitude)
+        var center = CLLocationCoordinate2D(latitude: location!.coordinate.latitude, longitude: location!.coordinate.longitude)
         
         self.locationManager.stopUpdatingLocation()
         

@@ -14,7 +14,6 @@
 		345880931C90ACB400E13041 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345880921C90ACB400E13041 /* SystemConfiguration.framework */; };
 		345880951C90ACC100E13041 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345880941C90ACC100E13041 /* Security.framework */; };
 		345880971C90ACC500E13041 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345880961C90ACC500E13041 /* CFNetwork.framework */; };
-		345880991C90ACD600E13041 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345880981C90ACD600E13041 /* Firebase.framework */; };
 		3458809B1C90AD3C00E13041 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3458809A1C90AD3C00E13041 /* libc++.tbd */; };
 		3458809D1C90AD4B00E13041 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3458809C1C90AD4B00E13041 /* libz.tbd */; };
 		3458809F1C90AD6A00E13041 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3458809E1C90AD6A00E13041 /* libicucore.tbd */; };
@@ -29,6 +28,7 @@
 		34724BEB1C6680B60059BBFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34724BE91C6680B60059BBFA /* LaunchScreen.storyboard */; };
 		34724BF61C6680B60059BBFA /* Depression1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34724BF51C6680B60059BBFA /* Depression1Tests.swift */; };
 		34724C011C6680B60059BBFA /* Depression1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34724C001C6680B60059BBFA /* Depression1UITests.swift */; };
+		34FD58651C9856EB00212824 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FD58641C9856EB00212824 /* Firebase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,6 @@
 		345880921C90ACB400E13041 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		345880941C90ACC100E13041 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		345880961C90ACC500E13041 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		345880981C90ACD600E13041 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 		3458809A1C90AD3C00E13041 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		3458809C1C90AD4B00E13041 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		3458809E1C90AD6A00E13041 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
@@ -77,6 +76,7 @@
 		34724BFC1C6680B60059BBFA /* Depression1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Depression1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34724C001C6680B60059BBFA /* Depression1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depression1UITests.swift; sourceTree = "<group>"; };
 		34724C021C6680B60059BBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34FD58641C9856EB00212824 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +85,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3458809F1C90AD6A00E13041 /* libicucore.tbd in Frameworks */,
+				34FD58651C9856EB00212824 /* Firebase.framework in Frameworks */,
 				3458809D1C90AD4B00E13041 /* libz.tbd in Frameworks */,
 				3458809B1C90AD3C00E13041 /* libc++.tbd in Frameworks */,
 				345880971C90ACC500E13041 /* CFNetwork.framework in Frameworks */,
-				345880991C90ACD600E13041 /* Firebase.framework in Frameworks */,
 				345880951C90ACC100E13041 /* Security.framework in Frameworks */,
 				345880931C90ACB400E13041 /* SystemConfiguration.framework in Frameworks */,
 				3459BA191C8EFF0A00B1B159 /* CoreLocation.framework in Frameworks */,
@@ -119,7 +119,7 @@
 				3458809E1C90AD6A00E13041 /* libicucore.tbd */,
 				3458809C1C90AD4B00E13041 /* libz.tbd */,
 				3458809A1C90AD3C00E13041 /* libc++.tbd */,
-				345880981C90ACD600E13041 /* Firebase.framework */,
+				34FD58641C9856EB00212824 /* Firebase.framework */,
 				345880961C90ACC500E13041 /* CFNetwork.framework */,
 				345880941C90ACC100E13041 /* Security.framework */,
 				345880921C90ACB400E13041 /* SystemConfiguration.framework */,

@@ -22,12 +22,13 @@ class LoginViewController: UIViewController {
     @IBAction func loginButton(sender: AnyObject) {
         Login()
         if (emailTextField.text == "" || passwordTextField.text == "") {
+            
             let alertView = UIAlertController(title: "Cannot log into account",
                 message: "Please enter an email address and password." as String, preferredStyle:.Alert)
             let okAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
             alertView.addAction(okAction)
             self.presentViewController(alertView, animated: true, completion: nil)
-            return;
+            return
         }
         
         

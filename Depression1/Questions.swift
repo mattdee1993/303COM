@@ -10,11 +10,6 @@ import UIKit
 
 class question1: UIViewController {
     
-    @IBAction func backButton(sender: AnyObject) {
-        Score.removeLast()
-        print(Score)
-    }
-    
     
     @IBAction func answer0_pressed(sender: AnyObject) {
         Score.append(0)
