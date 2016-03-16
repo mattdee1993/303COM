@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bi-id-FNm">
-                                <rect key="frame" x="261" y="45" width="79" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bi-id-FNm">
+                                <rect key="frame" x="278" y="45" width="45" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="v3Z-X8-PNw"/>
                                 </constraints>
@@ -355,8 +355,11 @@
                                     <segue destination="hZW-vF-aZL" kind="showDetail" id="XJJ-UT-Wlx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jV7-Rb-BIU">
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jV7-Rb-BIU">
                                 <rect key="frame" x="134" y="311" width="333" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="333" id="ygj-TP-EDs"/>
+                                </constraints>
                                 <state key="normal">
                                     <string key="title">2. I am sad all of the time
       and can't snap out of it</string>
@@ -378,8 +381,12 @@
                                     <segue destination="hZW-vF-aZL" kind="showDetail" id="Mqa-xJ-48R"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="6qM-hR-mFF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="6qM-hR-mFF">
                                 <rect key="frame" x="141" y="377" width="319" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5GJ-0Q-dIR"/>
+                                    <constraint firstAttribute="width" constant="319" id="cHA-oM-ohg"/>
+                                </constraints>
                                 <state key="normal">
                                     <string key="title">3. I am so sad and unhappy
       that I can't stand it</string>
@@ -414,19 +421,20 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="4D9-nJ-3Id" firstAttribute="leading" secondItem="kWV-aD-vxl" secondAttribute="leadingMargin" id="HKL-bu-FtX"/>
-                            <constraint firstItem="Y3Q-0F-ChW" firstAttribute="centerX" secondItem="6qM-hR-mFF" secondAttribute="centerX" constant="1" id="Ohm-vA-jUJ"/>
                             <constraint firstItem="4D9-nJ-3Id" firstAttribute="bottom" secondItem="Y3Q-0F-ChW" secondAttribute="bottom" id="RU6-8a-btb"/>
-                            <constraint firstItem="Y3Q-0F-ChW" firstAttribute="centerX" secondItem="jV7-Rb-BIU" secondAttribute="centerX" constant="1" id="ZzF-Yo-OBs"/>
+                            <constraint firstItem="jV7-Rb-BIU" firstAttribute="centerX" secondItem="6qM-hR-mFF" secondAttribute="centerX" id="Zte-tZ-Zq9"/>
+                            <constraint firstItem="6qM-hR-mFF" firstAttribute="top" secondItem="jV7-Rb-BIU" secondAttribute="bottom" constant="36" id="cua-kk-oss"/>
                             <constraint firstItem="uIe-GG-H1R" firstAttribute="top" secondItem="kWV-aD-vxl" secondAttribute="top" constant="253" id="d2b-p5-ONo"/>
                             <constraint firstItem="Y3Q-0F-ChW" firstAttribute="centerX" secondItem="kWV-aD-vxl" secondAttribute="centerX" constant="1" id="eeq-10-Pji"/>
                             <constraint firstItem="Y3Q-0F-ChW" firstAttribute="centerX" secondItem="uIe-GG-H1R" secondAttribute="centerX" constant="1" id="gPA-fw-EFt"/>
-                            <constraint firstItem="6qM-hR-mFF" firstAttribute="top" secondItem="jV7-Rb-BIU" secondAttribute="bottom" constant="36" id="jHS-yD-P5t"/>
+                            <constraint firstItem="lnB-hw-sQl" firstAttribute="top" secondItem="6qM-hR-mFF" secondAttribute="bottom" constant="193" id="ji7-pX-Lwg"/>
                             <constraint firstItem="uIe-GG-H1R" firstAttribute="top" secondItem="Afd-Yq-FwD" secondAttribute="bottom" constant="34" id="k9W-nM-Cmz"/>
-                            <constraint firstItem="jV7-Rb-BIU" firstAttribute="top" secondItem="uIe-GG-H1R" secondAttribute="bottom" constant="28" id="lR3-Bh-7GY"/>
                             <constraint firstItem="Y3Q-0F-ChW" firstAttribute="top" secondItem="syk-Z6-cUB" secondAttribute="bottom" constant="8" symbolic="YES" id="llM-q0-I2D"/>
                             <constraint firstItem="fJq-bi-TVj" firstAttribute="centerX" secondItem="Afd-Yq-FwD" secondAttribute="centerX" id="qjm-wr-KhN"/>
                             <constraint firstItem="Afd-Yq-FwD" firstAttribute="top" secondItem="fJq-bi-TVj" secondAttribute="bottom" constant="57" id="rPI-Zv-73U"/>
+                            <constraint firstItem="jV7-Rb-BIU" firstAttribute="top" secondItem="uIe-GG-H1R" secondAttribute="bottom" constant="28" id="sYR-QF-NdT"/>
                             <constraint firstItem="Y3Q-0F-ChW" firstAttribute="centerX" secondItem="Afd-Yq-FwD" secondAttribute="centerX" constant="1" id="uMQ-6v-Bul"/>
+                            <constraint firstItem="jV7-Rb-BIU" firstAttribute="centerX" secondItem="uIe-GG-H1R" secondAttribute="centerX" id="zJ4-4G-BaP"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -3497,7 +3505,7 @@ and find it hard to get back to sleep</string>
                                 <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="11-16: Mild mood disturbance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkB-e0-Z4s">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11-16: Mild mood disturbance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkB-e0-Z4s">
                                 <rect key="frame" x="20" y="318" width="390" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="JID-uB-m1u"/>
@@ -3506,7 +3514,7 @@ and find it hard to get back to sleep</string>
                                 <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="17-20: Borderline clinical depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YfN-rC-1OS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17-20: Borderline clinical depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YfN-rC-1OS">
                                 <rect key="frame" x="20" y="372" width="390" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="AA5-0U-e8b"/>
@@ -3515,7 +3523,7 @@ and find it hard to get back to sleep</string>
                                 <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="21-30: Moderate depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofh-kf-7Ah">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21-30: Moderate depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofh-kf-7Ah">
                                 <rect key="frame" x="20" y="426" width="390" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="MFf-2Y-yfm"/>
@@ -3524,7 +3532,7 @@ and find it hard to get back to sleep</string>
                                 <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="31-40: Severe depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnT-if-b9u">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="31-40: Severe depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnT-if-b9u">
                                 <rect key="frame" x="20" y="474" width="390" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="0vL-7O-bOX"/>
@@ -3533,10 +3541,10 @@ and find it hard to get back to sleep</string>
                                 <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="over 40: Extreme depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Be2-h8-juG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="over 40: Extreme depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Be2-h8-juG">
                                 <rect key="frame" x="20" y="527" width="390" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="20W-pe-DC9"/>
+                                    <constraint firstAttribute="height" constant="40" id="owm-of-4bh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -3575,29 +3583,30 @@ and find it hard to get back to sleep</string>
                         <constraints>
                             <constraint firstItem="Xdf-6c-uoY" firstAttribute="top" secondItem="FFX-D1-wF4" secondAttribute="bottom" constant="46" id="0qb-Dh-ac7"/>
                             <constraint firstItem="1Zn-bX-jsI" firstAttribute="top" secondItem="vo4-FQ-ZKb" secondAttribute="bottom" constant="78" id="25l-OH-Wwy"/>
-                            <constraint firstItem="DzP-Td-dLb" firstAttribute="centerY" secondItem="Be2-h8-juG" secondAttribute="centerY" constant="18" id="4SR-GC-cwC"/>
                             <constraint firstItem="zkB-e0-Z4s" firstAttribute="top" secondItem="1Zn-bX-jsI" secondAttribute="bottom" constant="13" id="65M-zS-PWp"/>
                             <constraint firstItem="1Zn-bX-jsI" firstAttribute="trailing" secondItem="zkB-e0-Z4s" secondAttribute="trailing" id="7RG-sv-Qha"/>
                             <constraint firstItem="1Zn-bX-jsI" firstAttribute="leading" secondItem="zkB-e0-Z4s" secondAttribute="leading" id="8cQ-w1-i6g"/>
                             <constraint firstItem="YfN-rC-1OS" firstAttribute="leading" secondItem="zkB-e0-Z4s" secondAttribute="leading" id="99L-q6-yD1"/>
                             <constraint firstItem="1Zn-bX-jsI" firstAttribute="leading" secondItem="mPo-y0-YgA" secondAttribute="leadingMargin" id="9Ci-ir-1rn"/>
                             <constraint firstItem="Ofh-kf-7Ah" firstAttribute="trailing" secondItem="YfN-rC-1OS" secondAttribute="trailing" id="9FJ-ML-8u3"/>
-                            <constraint firstItem="Yvs-R4-Nyb" firstAttribute="top" secondItem="Be2-h8-juG" secondAttribute="bottom" constant="33" id="AHx-5F-W3y"/>
                             <constraint firstItem="YfN-rC-1OS" firstAttribute="top" secondItem="zkB-e0-Z4s" secondAttribute="bottom" constant="14" id="AvS-im-yyr"/>
                             <constraint firstItem="Xdf-6c-uoY" firstAttribute="centerX" secondItem="mPo-y0-YgA" secondAttribute="centerX" id="Bbo-SX-NIw"/>
                             <constraint firstItem="DzP-Td-dLb" firstAttribute="trailing" secondItem="mPo-y0-YgA" secondAttribute="trailingMargin" id="Ox6-ug-iS7"/>
-                            <constraint firstItem="Be2-h8-juG" firstAttribute="top" secondItem="hnT-if-b9u" secondAttribute="bottom" constant="13" id="Rtc-Q8-aLg"/>
+                            <constraint firstItem="Be2-h8-juG" firstAttribute="leading" secondItem="hnT-if-b9u" secondAttribute="leading" id="TcI-gR-7Xc"/>
                             <constraint firstItem="vo4-FQ-ZKb" firstAttribute="centerX" secondItem="Xdf-6c-uoY" secondAttribute="centerX" id="WQR-0f-H7a"/>
                             <constraint firstItem="hnT-if-b9u" firstAttribute="top" secondItem="Ofh-kf-7Ah" secondAttribute="bottom" constant="8" symbolic="YES" id="Ycn-Uu-Wy4"/>
                             <constraint firstItem="Ofh-kf-7Ah" firstAttribute="trailing" secondItem="hnT-if-b9u" secondAttribute="trailing" id="cXD-DL-ZQT"/>
                             <constraint firstItem="vo4-FQ-ZKb" firstAttribute="top" secondItem="Xdf-6c-uoY" secondAttribute="bottom" constant="16" id="cpo-FQ-8r7"/>
-                            <constraint firstItem="Be2-h8-juG" firstAttribute="leading" secondItem="hnT-if-b9u" secondAttribute="leading" id="dDx-6R-zli"/>
                             <constraint firstItem="1Zn-bX-jsI" firstAttribute="leading" secondItem="mPo-y0-YgA" secondAttribute="leadingMargin" id="eR2-h1-uvw"/>
                             <constraint firstItem="zkB-e0-Z4s" firstAttribute="trailing" secondItem="YfN-rC-1OS" secondAttribute="trailing" id="i3h-4Q-Gyp"/>
+                            <constraint firstItem="Be2-h8-juG" firstAttribute="trailing" secondItem="1Zn-bX-jsI" secondAttribute="trailing" id="ieX-7e-j9S"/>
                             <constraint firstItem="hnT-if-b9u" firstAttribute="leading" secondItem="Ofh-kf-7Ah" secondAttribute="leading" id="qs6-jb-CUo"/>
+                            <constraint firstAttribute="bottom" secondItem="DzP-Td-dLb" secondAttribute="bottom" constant="20" symbolic="YES" id="sGJ-W3-acG"/>
+                            <constraint firstItem="Be2-h8-juG" firstAttribute="top" secondItem="hnT-if-b9u" secondAttribute="bottom" constant="13" id="t81-OU-cRq"/>
                             <constraint firstItem="Ofh-kf-7Ah" firstAttribute="leading" secondItem="YfN-rC-1OS" secondAttribute="leading" id="tWv-2Y-Byk"/>
-                            <constraint firstItem="hnT-if-b9u" firstAttribute="trailing" secondItem="Be2-h8-juG" secondAttribute="trailing" id="vhx-R0-LIP"/>
+                            <constraint firstItem="Be2-h8-juG" firstAttribute="trailing" secondItem="hnT-if-b9u" secondAttribute="trailing" id="uSs-HV-ist"/>
                             <constraint firstItem="Ofh-kf-7Ah" firstAttribute="top" secondItem="YfN-rC-1OS" secondAttribute="bottom" constant="14" id="w4i-cB-5G8"/>
+                            <constraint firstItem="Yvs-R4-Nyb" firstAttribute="top" secondItem="Be2-h8-juG" secondAttribute="bottom" constant="33" id="wbs-mj-e3w"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -3730,28 +3739,28 @@ This test is designed to identify whether or not you may be showing symptoms of 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="eov-QX-EwH"/>
-        <segue reference="mwm-dm-fas"/>
+        <segue reference="HsT-V4-jBS"/>
+        <segue reference="77J-YH-6Kw"/>
+        <segue reference="8wH-8R-AbQ"/>
+        <segue reference="Yll-Ct-5iC"/>
+        <segue reference="c5U-aH-m1u"/>
+        <segue reference="iXI-BN-brw"/>
+        <segue reference="oUU-25-eeU"/>
+        <segue reference="FsN-3x-OlY"/>
         <segue reference="Ofn-Cd-TE2"/>
         <segue reference="QJn-mD-BND"/>
         <segue reference="nV6-XE-6t1"/>
         <segue reference="ytQ-VY-efw"/>
-        <segue reference="FsN-3x-OlY"/>
         <segue reference="Xd4-Va-ReK"/>
         <segue reference="MEZ-sT-eEd"/>
-        <segue reference="oUU-25-eeU"/>
-        <segue reference="iXI-BN-brw"/>
-        <segue reference="c5U-aH-m1u"/>
-        <segue reference="Yll-Ct-5iC"/>
-        <segue reference="8wH-8R-AbQ"/>
-        <segue reference="77J-YH-6Kw"/>
-        <segue reference="HsT-V4-jBS"/>
-        <segue reference="OPw-4a-yPn"/>
-        <segue reference="ajc-DT-FsZ"/>
+        <segue reference="eov-QX-EwH"/>
+        <segue reference="hEi-qw-GJp"/>
+        <segue reference="kCe-66-tAM"/>
         <segue reference="iKi-CN-k6F"/>
+        <segue reference="ajc-DT-FsZ"/>
+        <segue reference="OPw-4a-yPn"/>
         <segue reference="f2T-jl-6IM"/>
-        <segue reference="u0j-rj-QxK"/>
-        <segue reference="i1r-JZ-OKq"/>
         <segue reference="uwy-Yj-Xdb"/>
+        <segue reference="i1r-JZ-OKq"/>
     </inferredMetricsTieBreakers>
 </document>

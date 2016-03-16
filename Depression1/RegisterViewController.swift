@@ -13,7 +13,8 @@ class RegisterViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     
     let myRootRef = Firebase(url:"https://depression1.firebaseio.com")
     var gender = ""
-
+    var username = ""
+    let defaults = NSUserDefaults.standardUserDefaults()
     
     @IBOutlet weak var usernameTextField: UITextField!
     
@@ -70,10 +71,12 @@ class RegisterViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     //registration and login functions
     func writeData() {
         
-
+        var list = emailTextField.text?.componentsSeparatedByString("@")
+        username = list![0]
         let usersRef = myRootRef.childByAppendingPath("Users")
-        let update = usersRef.childByAppendingPath(usernameTextField.text)
+        let update = usersRef.childByAppendingPath(username as String)
         let newUserData = ["Age": ageTextField.text! as String, "Gender": label.text! as String, "Email": emailTextField.text! as String]
+        defaults.setObject(username, forKey: "username")
         
         update.updateChildValues(newUserData)
     }
