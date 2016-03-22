@@ -28,9 +28,9 @@ class RegisterViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         
         if (usernameTextField.text == "" || emailTextField.text == "" || passwordTextField.text == "" || ageTextField.text == "")
         {
-            print("1")
-            let alertView = UIAlertController(title: "Cannot log into account",
-                message: "Please enter an email address and password." as String, preferredStyle:.Alert)
+            
+            let alertView = UIAlertController(title: "Cannot register account",
+                message: "Please fill in all the fields." as String, preferredStyle:.Alert)
             let okAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
             alertView.addAction(okAction)
             self.presentViewController(alertView, animated: true, completion: nil)
